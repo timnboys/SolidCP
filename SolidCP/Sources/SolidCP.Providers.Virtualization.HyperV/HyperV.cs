@@ -50,7 +50,7 @@ namespace SolidCP.Providers.Virtualization
     {
         #region Constants
         private const string CONFIG_USE_DISKPART_TO_CLEAR_READONLY_FLAG = "SolidCP.HyperV.UseDiskPartClearReadOnlyFlag";
-        private const string WMI_VIRTUALIZATION_NAMESPACE = @"root\virtualization";
+        private const string WMI_VIRTUALIZATION_NAMESPACE = @"root\virtualization\v2";
         private const string WMI_CIMV2_NAMESPACE = @"root\cimv2";
 
         private const int SWITCH_PORTS_NUMBER = 1024;
